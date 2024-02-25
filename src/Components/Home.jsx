@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <RootLayout />
     <main className="px-[4.89vw] mt-[-10px]">
-        <div className="w-full flex flex-row justify-between items-center">
+        <div className="w-full flex flex-col space-y-3 md:space-y-0 md:flex-row justify-between md:items-center">
             <div>
                 <h1 className="font-bold">Good Morning Bola</h1>
                 <span className="flex flex-row gap-[4px] items-center">
@@ -16,7 +16,7 @@ export default function Home() {
                     <p className="text-semibold text-secondary-text">Yaba, Lagos. Nigeria</p>
                 </span>
             </div>
-            <button className="btn-primary w-[150px]">
+            <button className="btn-primary md:w-[150px] w-[100px]">
                 Add Waste
             </button>
         </div>

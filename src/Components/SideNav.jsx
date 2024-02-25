@@ -8,8 +8,9 @@ const others = sideNavLinks.slice(1)
 
 const SideNav = () => {
   return (
-    <div className='sidenav bg-secondary-bg'>
+    <div className = 'hidden md:block sidenav bg-secondary-bg'>
         <div className='flex flex-row items-center gap-[5px]'>
+
             <img src={logo} alt='logo' className='h-[38px] w-[38px]' />
             <span className='text-primary-green logotext font-bold'>Cleancity</span>
         </div>

@@ -5,7 +5,7 @@ import heart from '../assets/icons/heart.png'
 
 const Garb = () => {
   return (
-    <div className="flex flex-wrap gap-[20px] mt-[30px] garb pb-[50px]">
+    <div className="flex flex-wrap justify-center gap-[20px] mt-[30px] garb pb-[50px]">
         <div className="garb_item shadow-md">
             <img src={garbage} className='h-[200px] w-[300px]' />
             <div className='desc shadow-md px-[12px] text-secondary-text'>

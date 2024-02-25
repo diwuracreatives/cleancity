@@ -8,14 +8,28 @@
   transition: all 400ms ease;
   font-family: 'Open Sans', sans-serif;
 }
-body{
-  padding-left: 19.6vw;
+
+@media only screen and (min-width: 768px) {
+  body{
+    padding-left: 19.6vw;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .btn-primary{
+    background-color: #32E12E;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+  }
 }
+
 .open-sans{
   font-family: 'Open Sans', sans-serif;
 }
 h1{
-  font-size: 40px;
+  font-size: 24px;
 }
 h2{
   font-size: 32px;
@@ -60,7 +74,7 @@ h4{
   border-radius: 10px;
   color: white;
   font-weight: bold;
-  height: 50px;
+  height: 35px;
 }
 
 .input-div{
